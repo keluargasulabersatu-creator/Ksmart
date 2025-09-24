@@ -15,16 +15,36 @@
     header {
       text-align: center;
       padding: 40px 20px;
-      background: rgba(255,255,255,0.8);
-      border-bottom: 5px solid #ff6b6b;
+      background: rgba(255,255,255,0.9);
+      border-bottom: 5px solid #ff0000;
+      position: relative;
+    }
+    header img.logo {
+      width: 120px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
     }
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #ff6b6b;
+      font-size: 2.7rem;
+      margin-bottom: 15px;
+      color: #ff0000;
+      font-weight: 900;
+      text-transform: uppercase;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .hero-image {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .hero-image img {
+      width: 300px;
+      max-width: 80%;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     .container {
       max-width: 900px;
@@ -39,28 +59,38 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     .section h2 {
-      color: #ff6b6b;
+      color: #ff0000;
       margin-bottom: 15px;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      font-weight: 800;
     }
     ul {
       margin: 10px 0;
       padding-left: 20px;
     }
+    ul li b, p b {
+      color: #000;
+      background: yellow;
+      padding: 2px 6px;
+    }
     .cta {
       text-align: center;
       padding: 30px;
-      background: #ff6b6b;
+      background: #ff0000;
       color: white;
       border-radius: 12px;
       margin: 20px 0;
     }
     .cta h2 {
       margin-bottom: 15px;
+      text-transform: uppercase;
+      font-weight: 900;
     }
     .cta a {
       display: inline-block;
       background: white;
-      color: #ff6b6b;
+      color: #ff0000;
       padding: 12px 25px;
       border-radius: 30px;
       font-weight: bold;
@@ -74,67 +104,71 @@
       text-align: center;
       padding: 20px;
       background: rgba(255,255,255,0.7);
-      border-top: 3px solid #ff6b6b;
+      border-top: 3px solid #ff0000;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>🎉 Program Try Out Kursus KeySmart 🎉</h1>
-  <p>Privat Bahasa Inggris Digital – Hanya Rp 10.000 / Anak / Bulan</p>
+  <img src="logo-keysmart.png" alt="Logo KeySmart" class="logo">
+  <h1>🎉 PROGRAM TRY OUT KURSUS KEYSMART 🎉</h1>
+  <p><b>KHUSUS ANAK SD KELAS 3–6</b><br>
+  PRIVAT BAHASA INGGRIS DIGITAL – HANYA <b>RP 10.000 / ANAK / BULAN</b></p>
 </header>
+
+<div class="hero-image">
+  <img src="anak-pegang-hp.jpg" alt="Anak belajar dengan HP">
+</div>
 
 <div class="container">
   <div class="section">
-    <h2>✨ Kesempatan Terbatas</h2>
-    <p>Kami membuka <b>kelas perdana (Try Out)</b> untuk 10 anak saja.  
-    Biaya super murah: <b>Rp 10.000 / anak untuk 1 bulan penuh!</b></p>
+    <h2>✨ KESEMPATAN TERBATAS</h2>
+    <p>KAMI MEMBUKA <b>KELAS PERDANA (TRY OUT)</b> UNTUK <b>10 ANAK SAJA</b>.  
+    BIAYA SUPER MURAH: <b>RP 10.000 / ANAK UNTUK 1 BULAN PENUH!</b></p>
   </div>
 
   <div class="section">
-    <h2>📘 Apa yang Didapat Anak?</h2>
+    <h2>📘 APA YANG DIDAPAT ANAK?</h2>
     <ul>
-      <li>12 kali pertemuan intensif (3–4 kali seminggu).</li>
-      <li>Belajar <b>bahasa Inggris percakapan sederhana</b>.</li>
-      <li>Sistem digital interaktif – anak bisa latihan lewat HP.</li>
-      <li>Belajar seru, modern, sesuai era digital.</li>
-      <li>Tutor praktisi IT & AI aplikasi edukasi.</li>
+      <li><b>12 KALI PERTEMUAN INTENSIF</b> (3–4 kali seminggu).</li>
+      <li><b>BELAJAR BAHASA INGGRIS PERCAKAPAN SEDERHANA</b>.</li>
+      <li><b>SISTEM DIGITAL INTERAKTIF</b> – ANAK BISA LATIHAN LEWAT HP.</li>
+      <li><b>BELAJAR SERU, MODERN, SESUAI ERA DIGITAL</b>.</li>
+      <li><b>TUTOR PRAKTISI IT & AI</b> APLIKASI EDUKASI.</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>🎯 Tujuan Program</h2>
-    <p>
-      Membantu anak-anak:  
-      <ul>
-        <li>Bisa greeting (salam) & percakapan ringan.</li>
-        <li>Belajar dengan cara baru yang menyenangkan.</li>
-        <li>Membiasakan HP jadi alat belajar, bukan hanya game/video.</li>
-      </ul>
-    </p>
+    <h2>🎯 TUJUAN PROGRAM</h2>
+    <ul>
+      <li><b>BISA GREETING (SALAM) & PERCAKAPAN RINGAN</b>.</li>
+      <li><b>METODE BELAJAR BARU YANG MENYENANGKAN</b>.</li>
+      <li><b>HP JADI ALAT BELAJAR</b>, BUKAN HANYA GAME/VIDEO.</li>
+    </ul>
   </div>
 
   <div class="section">
-    <h2>💡 Kenapa Harus Ikut?</h2>
+    <h2>💡 KENAPA HARUS IKUT?</h2>
     <ul>
-      <li>Hanya Rp 10.000 → lebih murah dari beli pulsa!</li>
-      <li>Anak dapat pengalaman belajar baru.</li>
-      <li>Orang tua bisa lihat perkembangan anak 1 bulan penuh.</li>
-      <li>Terbatas hanya untuk 10 anak!</li>
+      <li><b>HANYA RP 10.000</b> → LEBIH MURAH DARI BELI PULSA!</li>
+      <li><b>ANAK DAPAT PENGALAMAN BELAJAR BARU</b>.</li>
+      <li><b>ORANG TUA BISA LIHAT PERKEMBANGAN</b> ANAK 1 BULAN PENUH.</li>
+      <li><b>TERBATAS HANYA UNTUK 10 ANAK!</b></li>
     </ul>
   </div>
 
   <div class="cta">
-    <h2>📞 Informasi & Pendaftaran</h2>
-    <p>Hubungi: <b>Coach Kaka Duwila</b><br>
+    <h2>📞 INFORMASI & PENDAFTARAN</h2>
+    <p>HUBUNGI: <b>COACH KAKA DUWILA</b><br>
     WA: <b>0813-1502-1228</b></p>
-    <a href="https://wa.me/6281315021228">Daftar Sekarang</a>
+    <a href="https://wa.me/6281315021228">🔥 DAFTAR SEKARANG 🔥</a>
   </div>
 </div>
 
 <footer>
-  &copy; 2025 KeySmart – HP Jadi Sahabat Belajar Anak
+  &copy; 2025 KEYSMART – HP JADI SAHABAT BELAJAR ANAK
 </footer>
 
 </body>
